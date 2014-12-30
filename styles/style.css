@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*========== Used CSS ============*/
+
+body{
+    background-color: #272822;
+}
+
+.headerBar{
+    background-color: #FFFFFF;
+    height: 80px;
+    text-align: center;
+}
+
+#logo{
+    margin-top: 5px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 25%;
+}
+
+#logo img{
+    max-width: 70px;
+    margin: 0px 0px;
+}
+
+nav {
+    margin-right: 1px;
+    max-width: 300px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    right: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    float:right;
+}
+
+nav ul li img {
+    margin: 0 10px 10px 0;
+    max-width: 50px;
+}
+
+nav ul li img:hover{
+    opacity: .8;
+}
+
+main {
+    font-family: Consolas;
+    color: #CFCFC2;
+    width: 600px;
+    margin: 0 auto ;
+    margin-top: 50px;
+}
+
+
+.title{
+    /* This is the Title of: */
+    font-family: Consolas-Bold;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.subtitle{
+    /* This is the subtitle: */
+    font-family: Consolas-Bold;
+    font-size: 16px;
+    line-height: 28px;
+    float:left;
+}
+
+.date {
+    /* Date: Nov 20, 2014: */
+    font-family: Consolas-Italic;
+    font-size: 16px;
+    line-height: 28px;
+    float: right;
+}
+
+.content{
+    clear:both;
+    margin: 40px 0;
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+article {
+  max-width: 550px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: justify;
+}
+
+article p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  margin: 15px 0;
+}
+
+
+.subdate-container{
+    margin: 0 0 ;
+}
