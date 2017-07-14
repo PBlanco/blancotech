@@ -58,11 +58,17 @@ body{
 #logo{
     margin-top: 5px;
     width: 50%;
-    height: 100%;
     text-align: center;
     display: block;
     position: absolute;
     left: 25%;
+}
+
+@media only screen and (max-width: 480px) {
+    #logo{
+        text-align: left;
+        left: 5%;
+    }
 }
 
 #logo img{
