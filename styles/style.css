@@ -46,6 +46,7 @@ table {
 /*========== Used CSS ============*/
 
 body{
+    font-family: 'Open Sans', sans-serif;
     background-color: #272822;
 }
 
@@ -101,7 +102,6 @@ nav ul li img:hover{
 }
 
 main {
-    font-family: Consolas;
     color: #CFCFC2;
     max-width: 600px;
     margin: 0 auto ;
@@ -112,14 +112,12 @@ main {
 
 .title{
     /* This is the Title of: */
-    font-family: Consolas-Bold;
-    font-size: 24px;
-    line-height: 42px;
+    font-size: 30px;
+    line-height: 60px;
 }
 
 .subtitle{
     /* This is the subtitle: */
-    font-family: Consolas-Bold;
     font-size: 16px;
     line-height: 28px;
     float:left;
@@ -127,7 +125,6 @@ main {
 
 .date {
     /* Date: Nov 20, 2014: */
-    font-family: Consolas-Italic;
     font-size: 16px;
     line-height: 28px;
     float: right;
@@ -136,9 +133,8 @@ main {
 .content{
     clear:both;
     margin: 40px 0;
-    font-family: OpenSans;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 22px;
 }
 
 article {
