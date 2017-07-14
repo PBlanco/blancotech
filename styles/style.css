@@ -64,13 +64,6 @@ body{
     left: 25%;
 }
 
-@media only screen and (max-width: 480px) {
-    #logo{
-        text-align: left;
-        left: 5%;
-    }
-}
-
 #logo img{
     max-width: 70px;
     margin: 0px 0px;
@@ -110,9 +103,10 @@ nav ul li img:hover{
 main {
     font-family: Consolas;
     color: #CFCFC2;
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto ;
     margin-top: 50px;
+    padding: 0 20px;
 }
 
 
@@ -148,9 +142,9 @@ main {
 }
 
 article {
+  width: 100%;
   max-width: 550px;
   margin: 0 auto;
-  width: 100%;
   text-align: justify;
 }
 
@@ -162,7 +156,24 @@ article p {
   margin: 15px 0;
 }
 
+code {
+    font-family: monospace;
+    background-color: lightgrey;
+    color: black;
+    margin: 20px 0;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
 
 .subdate-container{
     margin: 0 0 ;
+}
+
+@media only screen and (max-width: 480px) {
+    #logo{
+        text-align: left;
+        left: 5%;
+    }
 }
